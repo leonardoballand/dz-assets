@@ -1,6 +1,6 @@
 {
-    "name": "dz-foundation",
-    "version": "1.0.0",
+    "name": "dz-assets",
+    "version": "1.2.0",
     "ignore": [
         "doc",
         "spec",

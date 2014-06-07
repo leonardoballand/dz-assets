@@ -1,0 +1,105 @@
+// ------------------------------
+// FAST SETTINGS
+// ------------------------------
+
+ $primary-color: #e74c3d;
+ $secondary-color: #34495e;
+ $alert-color: #f39c12;
+ $success-color: #31ca31;
+ $warning-color: #f08a24;
+ $info-color: #a0d3e8;
+ $white: #ecf0f1;
+ $gray: #bdc3c7;
+ $gray-dark: #ccc;
+ $green: #31ca31;
+
+// ------------------------------
+// BASICS
+// ------------------------------
+
+body {
+  overflow-x: hidden;
+}
+
+// ------------------------------
+// TYPOGRAPHY
+// ------------------------------
+
+$sans-font:         'Open Sans', sans-serif;
+$serif-font:        'Roboto', serif;
+
+p {
+  code {
+      border: none;
+      font-weight: normal;
+      line-height: 1.1em;
+      padding: 0 0.1em;
+      color: $secondary-color;
+      background: lighten($secondary-color, 32%);
+  }
+}
+pre {
+  width: 100%;
+  margin-bottom: 1.3em;
+  padding: 1em 2.5%;
+  background: lighten($secondary-color, 32%);
+  border: 1px solid $primary-color;
+  border-left: 3px solid $primary-color;
+  font-family: monospace;
+  font-size: 1.2em;
+  font-weight: normal;
+  line-height: 1.6em;
+  display: inline-block;
+  padding: 0 20px 10px;
+  transition: all 0.3s linear;
+
+    &:hover {
+      position: relative;
+      z-index: 99;
+      height: auto;
+      border-left: 15px solid $primary-color;
+      transition: all 0.3s linear;
+    }
+
+  code {
+    white-space: pre;
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 0.9em;
+    line-height: 1.1em;
+    color: $secondary-color;
+  }
+
+}
+
+// ------------------------------
+// BASIC STYLING
+// ------------------------------
+
+
+
+// ------------------------------
+// MAIN LAYOUT
+// ------------------------------
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+// ------------------------------
+// MISC STYLES / HELPERS
+// ------------------------------
+
+.hidethis {
+  display: none !important;
+}
+
+.invisible {
+  opacity: 0 !important;
+}
