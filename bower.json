@@ -1,0 +1,12 @@
+{
+    "name": "dz-foundation",
+    "version": "0.0.1",
+    "ignore": [
+        "doc",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        "bower.json",
+        "README.md"
+    ]
+}
