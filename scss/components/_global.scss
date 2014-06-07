@@ -2,7 +2,7 @@
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
-@import "../functions";
+@import "../modules/functions";
 //
 // Foundation Variables
 //
@@ -31,7 +31,7 @@ $base-line-height: 150% !default;
 
 // @mixins
 //
-// We use this to optionally include experimental or 
+// We use this to optionally include experimental or
 // explicitly vendor prefixed properties
 @mixin experimental() {
   @if $experimental {
@@ -140,7 +140,7 @@ $base-line-height: 150% !default;
     position: absolute;
     display: block;
     height: 0;
-    
+
     @if $offcanvas {
       @if $top {
         top: $top;
@@ -156,7 +156,7 @@ $base-line-height: 150% !default;
     	  left: ($tabbar-menu-icon-width - $width)/2;
     	}
     }
-    	
+
     box-shadow:
       0 0px 0 $thickness $color,
       0 $gap + $thickness 0 $thickness $color,
@@ -243,11 +243,11 @@ $text-direction: ltr !default;
 $default-float: left !default;
 $opposite-direction: right !default;
 @if $text-direction == ltr {
-  $default-float: left;
-  $opposite-direction: right;
+  $default-float: left !global;
+  $opposite-direction: right !global;
 } @else {
-  $default-float: right;
-  $opposite-direction: left;
+  $default-float: right !global;
+  $opposite-direction: left !global;
 }
 // We use these as default colors throughout
 $primary-color: #008CBA !default;
@@ -320,11 +320,11 @@ $cursor-text-value: text !default;
   // Meta styles are included in all builds, as they are a dependancy of the Javascript.
   // Used to provide media query values for javascript components.
   // Forward slash placed around everything to convince PhantomJS to read the value.
-  
+
   meta.foundation-version {
     font-family: "/5.2.3/";
   }
-  
+
   meta.foundation-mq-small {
     font-family: "/" + unquote($small-up) + "/";
     width: lower-bound($small-range);

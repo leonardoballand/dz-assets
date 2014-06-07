@@ -1,5 +1,5 @@
 // ------------------------------
-// FAST SETTINGS
+// QUICK SETTINGS
 // ------------------------------
 
  $primary-color: #e74c3d;
@@ -8,18 +8,11 @@
  $success-color: #31ca31;
  $warning-color: #f08a24;
  $info-color: #a0d3e8;
- $white: #ecf0f1;
- $gray: #bdc3c7;
- $gray-dark: #ccc;
- $green: #31ca31;
 
 // ------------------------------
 // BASICS
 // ------------------------------
 
-body {
-  overflow-x: hidden;
-}
 
 // ------------------------------
 // TYPOGRAPHY
@@ -83,13 +76,6 @@ pre {
 // ------------------------------
 // MAIN LAYOUT
 // ------------------------------
-
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
 
 // ------------------------------

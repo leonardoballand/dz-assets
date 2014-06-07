@@ -6,7 +6,6 @@
 // ------------------------------
 
 @import 'normalize.scss';
-@import 'fonts.scss';
 
 // ------------------------------
 // GLOBAL STYLES
@@ -14,7 +13,6 @@
 
 @import 'global.scss';
 @import 'settings.scss';
-@import 'animations.scss';
 
 // ------------------------------
 // MODULES
@@ -23,6 +21,7 @@
 @import
       "modules/functions",
 	 "modules/sdk-app",
+      "animations.scss",
 	 "modules/navigation";
 
 // ------------------------------
@@ -77,3 +76,5 @@
 // EXTRAS
 // ------------------------------
 
+@import
+  "fonts.scss";
