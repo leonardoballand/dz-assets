@@ -10,7 +10,7 @@
 // $rem-base: 16px;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
-@import "foundation/functions";
+@import "modules/functions";
 
 // $experimental: true;
 
@@ -41,6 +41,8 @@
 // Global
 
 // We use these to control various global styles
+   $sans-font:         'Open Sans', sans-serif;
+   $serif-font:        'Roboto', serif;
 // $body-bg: #fff;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;

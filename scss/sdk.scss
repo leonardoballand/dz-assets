@@ -1,4 +1,4 @@
-@import 'bourbon/bourbon';
+@import '../../bourbon/bourbon';
 @import 'http://fonts.googleapis.com/css?family=Open+Sans:300,800|Roboto:400,700)';
 
 // ------------------------------
@@ -11,7 +11,6 @@
 // GLOBAL STYLES
 // ------------------------------
 
-@import 'global.scss';
 @import 'settings.scss';
 
 // ------------------------------
@@ -20,8 +19,8 @@
 
 @import
       "modules/functions",
-	 "modules/sdk-app",
-      "animations.scss",
+	 "modules/helpers",
+      "modules/animations.scss",
 	 "modules/navigation";
 
 // ------------------------------
@@ -76,5 +75,4 @@
 // EXTRAS
 // ------------------------------
 
-@import
-  "fonts.scss";
+@import '../../font-awesome/scss/font-awesome.scss';
