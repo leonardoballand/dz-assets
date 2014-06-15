@@ -1,3 +1,101 @@
 // ------------------------------
-//       PAGES
+//  MAIN PAGE
 // ------------------------------
+
+.main-container {
+    height: 100%;
+    background: url(https://s3.amazonaws.com/ooomf-com-files/hBd6EPoQT2C8VQYv65ys_White%20Sands.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    h1 {
+        color: $secondary-color;
+    }
+
+    .htour {
+      margin-top: 45px;
+    }
+    .btour {
+        position: absolute;
+        bottom: 93px;
+        right: 93px;
+    }
+}
+
+// ------------------------------
+//  TODO
+// ------------------------------
+
+.todo-container {
+    background: hsl(120, 30%, 60%);
+    height: 100%;
+    position: relative;
+
+    form {
+        padding-top: 2.4em;
+
+        #task {
+            background: white;
+            outline: none;
+            border: 0 none;
+            font: inherit;
+            text-align: left;
+            color: hsl(120, 40%, 30%);
+            display: block;
+            width: 100%;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        #submit {
+            display: none;
+        }
+
+        .submit-icon, .reset-icon {
+            position: absolute; top: 40px; right: 20px;
+            color: hsl(120, 30%, 60%);
+            line-height: 40px; padding: 0 10px;
+            transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            cursor: pointer;
+        }
+    }
+
+    .panel {
+            height: 70px;
+
+            i {
+                color: hsl(120, 30%, 80%);
+
+                &:hover
+                {
+                    color: hsl(120, 30%, 60%)
+                }
+            }
+        }
+}
+
+
+
+// ------------------------------
+//  LOGIN / SIGNUP
+// ------------------------------
+
+.auth-container {
+    height: 100%;
+    margin-top: -45px;
+    background: url(https://s3.amazonaws.com/ooomf-com-files/4fjHtYHdRlSemICxjjBu_IMG_8424.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .panel {
+        margin-top: 99px;
+        background: rgba(255,255,255,0.5);
+        border: none;
+    }
+}
