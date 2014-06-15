@@ -8,23 +8,6 @@
 @import 'normalize.scss';
 
 // ------------------------------
-// GLOBAL STYLES
-// ------------------------------
-
-@import 'settings.scss';
-
-// ------------------------------
-// MODULES
-// ------------------------------
-
-@import
-      "modules/pages",
-      "modules/functions",
-	 "modules/helpers",
-      "modules/animations",
-	 "modules/navigation";
-
-// ------------------------------
 // COMPONENTS
 // ------------------------------
 
@@ -65,6 +48,23 @@
   "components/type",
   "components/offcanvas",
   "components/visibility";
+
+  // ------------------------------
+  // GLOBAL STYLES
+  // ------------------------------
+
+  @import 'settings.scss';
+
+  // ------------------------------
+  // MODULES
+  // ------------------------------
+
+  @import
+        "modules/pages",
+        "modules/functions",
+        "modules/helpers",
+        "modules/animations",
+        "modules/navigation";
 
 // ------------------------------
 // MEDIA QUERIES
